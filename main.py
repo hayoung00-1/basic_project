@@ -12,3 +12,6 @@ def main():
 @app.get("/one")
 def step_one():
     return {"step": "one"}
+@app.get("/two")
+def step_two():
+    return {"step": "two"}
